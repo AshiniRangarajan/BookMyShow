@@ -1,0 +1,15 @@
+# Ignore backend/server files to avoid detection as a Node server
+server.js
+controllers/
+models/
+routes/
+services/
+config/
+.env
+.env.local
+.env.*.local
+*.log
+
+# Ignore local build artifacts (Vercel will run the build step during deployment)
+build/
+frontend/build/
